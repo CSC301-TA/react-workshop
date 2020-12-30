@@ -3,9 +3,9 @@ import { Avatar, HStack } from "@chakra-ui/react";
 const ContributorRow = ({ contributors }) => {
   return (
     <HStack spacing="12px">
-      {contributors.map((contributor, index) => {
+      {contributors && contributors.map((contributor, index) => {
         return (
-          <Avatar key={index} name={contributor.name} src={contributor.src} />
+          <Avatar key={index} name={contributor.login} src={contributor.avatar_url} />
         );
       })}
     </HStack>
