@@ -1,8 +1,6 @@
-# WV React Workshop
+# CSCC01 React Demo
 
-This repository contains the starter code for the WV React Workshop!
-
-Slides <a href="https://docs.google.com/presentation/d/1VGcq07dgQgvnXsZKTxp60jxx9n7hGU9S4ZX2wJY7HzA/edit?usp=sharing">here</a>
+This repository contains the starter code for the CSCC01 React Tutorial
 
 1. `npm install`
 2. `npm start`
